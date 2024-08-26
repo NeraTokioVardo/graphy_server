@@ -1,4 +1,5 @@
 FROM node:22.6.0-slim
+FROM zlib:1.3.1
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
